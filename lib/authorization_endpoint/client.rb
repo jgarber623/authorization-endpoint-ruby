@@ -4,6 +4,8 @@ module AuthorizationEndpoint
       raise ArgumentError, "url must be a String (given #{url.class.name})" unless url.is_a?(String)
 
       @uri = Addressable::URI.parse(url)
+
+      raise ArgumentError, 'url must be an absolute URI (e.g. https://example.com)' unless @uri.absolute?
     rescue Addressable::URI::InvalidURIError => error
       raise InvalidURIError, error
     end
