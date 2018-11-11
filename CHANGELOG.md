@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.3 / 2018-11-11
+
+- Liberalize webmock gem constraint ([b658f2d](https://github.com/jgarber623/authorization-endpoint-ruby/commit/b658f2d)).
+
 ## 0.1.2 / 2018-11-11
 
 - Freeze mutable objects assigned to constants ([3e7940a](https://github.com/jgarber623/authorization-endpoint-ruby/commit/3e7940a)).
