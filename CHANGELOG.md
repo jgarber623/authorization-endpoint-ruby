@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.2 / 2018-11-11
+
+- Freeze mutable objects assigned to constants ([3e7940a](https://github.com/jgarber623/authorization-endpoint-ruby/commit/3e7940a)).
+- Liberalize gemspec dependency constraints ([0523cd1](https://github.com/jgarber623/authorization-endpoint-ruby/commit/0523cd1)).
+
 ## 0.1.1 / 2018-07-29
 
 - Raise an `ArgumentError` when `Client` instantiated with non-absolute URI ([9306a50](https://github.com/jgarber623/authorization-endpoint-ruby/commit/9306a50)).
