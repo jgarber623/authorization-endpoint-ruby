@@ -6,11 +6,11 @@ module AuthorizationEndpoint
 
     # Liberal pattern matching a string of text between angle brackets
     # https://tools.ietf.org/html/rfc5988#section-5.1
-    REGEXP_TARGET_URI_PATTERN = /^<(.*)>;/
+    REGEXP_TARGET_URI_PATTERN = /^<(.*)>;/.freeze
 
     # Ultra-orthodox pattern matching HTTP Link header `rel` parameter including an `authorization_endpoint` value
     # https://www.w3.org/TR/indieauth/#x4-discovery
-    REGEXP_AUTHORIZATION_ENDPOINT_REL_PATTERN = /(?:;|\s)rel="?(?:#{REGEXP_REG_REL_TYPE_PATTERN}+\s)?authorization_endpoint(?:\s#{REGEXP_REG_REL_TYPE_PATTERN})?"?/
+    REGEXP_AUTHORIZATION_ENDPOINT_REL_PATTERN = /(?:;|\s)rel="?(?:#{REGEXP_REG_REL_TYPE_PATTERN}+\s)?authorization_endpoint(?:\s#{REGEXP_REG_REL_TYPE_PATTERN})?"?/.freeze
 
     def initialize(response)
       raise ArgumentError, "response must be an HTTP::Response (given #{response.class.name})" unless response.is_a?(HTTP::Response)
