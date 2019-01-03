@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.4 / 2019-01-03
+
+- Expand supported Ruby versions to include 2.6 ([30b9b24](https://github.com/jgarber623/authorization-endpoint-ruby/commit/30b9b24)).
+
 ## 0.1.3 / 2018-11-11
 
 - Liberalize webmock gem constraint ([b658f2d](https://github.com/jgarber623/authorization-endpoint-ruby/commit/b658f2d)).
