@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'authorization_endpoint/version'
 
 Gem::Specification.new do |spec|
-  spec.required_ruby_version = ['>= 2.4', '< 2.6']
+  spec.required_ruby_version = ['>= 2.4', '< 2.7']
 
   spec.name          = 'authorization-endpoint'
   spec.version       = AuthorizationEndpoint::VERSION
