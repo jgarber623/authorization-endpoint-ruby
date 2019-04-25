@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.5 / 2019-04-24
+
+- Add deprecation notice
+
 ## 0.1.4 / 2019-01-03
 
 - Expand supported Ruby versions to include 2.6 ([30b9b24](https://github.com/jgarber623/authorization-endpoint-ruby/commit/30b9b24)).

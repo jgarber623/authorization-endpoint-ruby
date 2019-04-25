@@ -1,5 +1,9 @@
 # authorization-endpoint-ruby
 
+⚠️ **Deprecation Notice (2019-04-24)** ⚠️ This gem is deprecated in favor of [indieweb/indieweb-endpoints-ruby](https://github.com/indieweb/indieweb-endpoints-ruby) and will no longer receive updates.
+
+---
+
 **A Ruby gem for discovering a URL’s [authorization endpoint](https://indieweb.org/authorization-endpoint) for use with [Micropub](https://indieweb.org/Micropub) and [IndieAuth](https://indieweb.org/IndieAuth) clients.**
 
 [![Gem](https://img.shields.io/gem/v/authorization-endpoint.svg?style=for-the-badge)](https://rubygems.org/gems/authorization-endpoint)

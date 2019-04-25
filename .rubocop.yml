@@ -4,6 +4,7 @@ require:
 
 Metrics/BlockLength:
   Exclude:
+    - authorization-endpoint.gemspec
     - spec/**/*.rb
 
 Metrics/LineLength:
